@@ -1,11 +1,15 @@
 import React from "react";
 import { FaRegBell, FaRegUser, FaSignOutAlt } from "react-icons/fa";
 import "../styles/Header.css";
+import { HiMiniQrCode } from "react-icons/hi2";
 
 export default function Header({ name, role, roleID }) {
   return (
     <header>
       <div className="logo">
+        <span>
+          <HiMiniQrCode />
+        </span>
         <h3>ATTENDR</h3>
         <small>{role}</small>
       </div>
