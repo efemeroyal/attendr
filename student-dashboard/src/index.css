@@ -1,0 +1,11 @@
+:root{
+  --background-color: #F8FAFC;
+  --foreground-color: #0F172A;
+  --color-muted: #EFF4F8;
+  --color-muted-foreground: #64748B;
+  --color-card-primary-foreground: #FFFFFF;
+  --color-border: rgb(226, 232, 240);
+  --color-sidebar: #0A2540;
+  --color-accent: #14B8A6;
+  --color-primary: rgb(10, 77, 166);
+}
