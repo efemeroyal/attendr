@@ -1,0 +1,20 @@
+.container {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .mainContainer {
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .mainContainer {
+    padding: 1.5rem;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .mainContainer {
+    padding: 3rem 4rem;
+  }
+}

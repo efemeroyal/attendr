@@ -1,0 +1,23 @@
+.courses {
+  background: var(--card);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.leftBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftBox__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.left h2 {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 0.5rem;
+}

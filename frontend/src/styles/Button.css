@@ -1,0 +1,41 @@
+.btn {
+  border: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  transition: var(--fast-trans);
+}
+
+.btn-success {
+  background: var(--success);
+  color: white;
+
+  &:hover {
+    filter: brightness(0.95);
+  }
+}
+
+.btn-accent {
+  background: transparent;
+  color: var(--text);
+
+  &:hover {
+    background: var(--accent);
+    color: white;
+  }
+}
+.btn-course-accent {
+  background: hsl(from var(--secondary) h s l / 0.7);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 0.75rem;
+
+  &:hover {
+    background: var(--accent);
+    color: white;
+  }
+}

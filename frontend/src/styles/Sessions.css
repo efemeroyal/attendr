@@ -1,0 +1,72 @@
+.sessions {
+  background: var(--card);
+  padding: 0.75rem;
+  border-radius: 10px;
+}
+
+.sessionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sessionHeader :not(.badge) {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+.sessionInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 0.25rem;
+}
+
+.sessionInfo h3 {
+  font-size: 1rem;
+}
+
+.sessionItem {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--bg);
+}
+
+.sessions h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sessions p {
+  margin-bottom: 0.75rem;
+}
+
+.badge {
+  background: #eef2ff;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.viewAll {
+  margin-top: 10px;
+  text-align: center;
+  color: var(--primary);
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  transition: var(--trans);
+}
+
+.viewAll:hover {
+  background: var(--accent);
+  color: var(--card);
+}

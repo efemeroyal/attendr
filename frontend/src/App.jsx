@@ -1,20 +1,24 @@
 import React from "react";
 import Header from "./components/Header";
 import MainContainer from "./components/MainContainer";
+import Container from "./components/Container";
 import ActionCards from "./components/ActionCards";
-import StatCard from "./components/StatsCard";
-import { FaBookOpen, FaRegCalendarAlt, FaUsers } from "react-icons/fa";
-import { BsGraphUp } from "react-icons/bs";
 import StatsCards from "./components/StatsCards";
+import Courses from "./components/Courses";
+import Sessions from "./components/Sessions";
 
 export default function App() {
   return (
     <>
       <Header role="Lecturer" name="Dr. Ahmad" roleID="STAFF001" />
-      <MainContainer>
+      <Container>
         <ActionCards />
         <StatsCards />
-      </MainContainer>
+        <MainContainer>
+          <Courses />
+          <Sessions />
+        </MainContainer>
+      </Container>
     </>
   );
 }
