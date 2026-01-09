@@ -15,6 +15,7 @@
   --secondary: #eff4f8;
   --accent: #14b8a6;
   --success: #16a34a;
+  --success-light: #16a34a26;
   --warning: #d59e0b;
   --error: #ef4444;
   --header-gradient: linear-gradient(90deg, #052550, var(--primary));

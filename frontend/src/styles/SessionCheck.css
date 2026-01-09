@@ -1,0 +1,29 @@
+.sessionCheck {
+  background-color: var(--success-light);
+  border: solid 2px var(--success);
+  border-radius: 4px;
+  padding: 4px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sessionCheck section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.sessionDetails .qrcode {
+  background-color: var(--success-light);
+  color: var(--success);
+  padding: 4px;
+  font-size: larger;
+  border-radius: 4px;
+}
+.sessionDetails h2 {
+  color: var(--success);
+}
+.sessionDetails span {
+  color: var(--text-muted);
+}
